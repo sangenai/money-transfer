@@ -1,0 +1,13 @@
+# Compiled output — Maven regenerates this
+target/
+
+# Eclipse project files — interviewer has their own Eclipse settings
+.classpath
+.project
+.settings/
+
+# IDE specific
+*.class
+
+# Mac OS (if applicable)
+.DS_Store
