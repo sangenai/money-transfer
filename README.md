@@ -19,15 +19,30 @@ A simple REST API for transferring money between accounts, built with Spring Boo
 
 ## How to Run
 
+**Option 1 — Run executable JAR (Java 17+ required, nothing else needed):**
 ```bash
-# Run the application
-mvn spring-boot:run
+java -jar money-transfer-1.0.jar
+```
 
-# Run tests
-mvn test
+**Option 2 — Build and run from source (Maven required):**
 
-# Build runnable JAR
+Step 1 — Build the JAR:
+```bash
 mvn package
+```
+This will:
+- Download dependencies
+- Compile the code
+- Run the tests
+- Create the JAR file
+
+Wait for:
+```
+BUILD SUCCESS
+```
+
+Step 2 — Run the JAR:
+```bash
 java -jar target/money-transfer-1.0.jar
 ```
 
